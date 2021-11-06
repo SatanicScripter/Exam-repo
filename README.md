@@ -1,3 +1,3 @@
 # Exam-repo
 
-C++ exercices I made for my exam ☜(ﾟヮﾟ☜)
+C++ exercices I made for my exam (⌐■_■)
