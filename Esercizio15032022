@@ -1,0 +1,39 @@
+//Inizializzare un array di dimensione 8. Popolarlo e stamparlo.
+
+#include <iostream>
+#include <cstdlib>
+#include <iomanip>
+
+using namespace std;
+
+//Prototipo
+void popola(int[], const int);
+void stampa(int[], const int);
+
+int main()
+{
+    //Costanti
+    const int DIM=8;
+    //Identificatori
+    int array[DIM];
+    //START
+    popola(array,DIM);
+    cout<<"L'array e'"<<endl;
+    stampa(array,DIM);
+    return 0;
+}
+void popola(int array[],int DIM){
+    int numero;
+    for(int i=0; i<DIM; i++){
+    cout<<"Inserire un numero "<<endl;
+    cin>>numero;
+    array[i]=numero;
+}
+}
+void stampa(int array[],const int DIM){
+    for(int i=0; i<DIM; i++){
+        cout<<setw(5)<<array[i];
+
+    }
+      cout<<endl;
+}
